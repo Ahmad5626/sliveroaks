@@ -42,9 +42,11 @@ nav {
 .nav2 ul {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 20px 0px;
+    column-gap: 48px;
+    width: 100%;
 }
 
 .nav2 ul li a {
@@ -100,7 +102,18 @@ nav {
     background-color: #0A66C2;
     color: white;
 }
+.nav-button button{
+    background-color:#0A66C2;
+    padding: 7px 14px;
+    border-radius: 10px;
+    border:  1px solid #0A66C2;
 
+}
+.nav-button button a{
+    text-decoration: none;
+    color: white;
+    
+}
 
 
 /* header end */
@@ -140,7 +153,7 @@ height: 600px;
     position: absolute;
 }
 .about-h1{
-    right: 20% !important;
+    left: 11%;
     position: absolute;
     top: 18%;
 }
@@ -155,7 +168,7 @@ height: 600px;
    
 }
 .about-h1 h1{
-    color: black;
+    color: white;
     font-family: 'Poppins', sans-serif;
     line-height: 1.8em;
     font-weight: 500;
@@ -178,11 +191,11 @@ height: 600px;
 }
 .about-h1 .join{
     background: transparent;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 10px 40px;
     margin: 50px 0px 0px 0px;
     font-size: 17px;
-    color: black;
+    color: white;
     font-family: 'Poppins', sans-serif;
     transition: 0.5s;
     margin: 30px 0px 0px 0px;
@@ -261,6 +274,9 @@ height: 600px;
     .nav2 {
         display: none;
     }
+    .box1 {
+        height: 300px;
+    }    
 }
 
 @media(max-width:768px) {
@@ -274,6 +290,7 @@ height: 600px;
 
     nav {
         max-width: 600px;
+        width: 90%;
 
 
     }
@@ -374,7 +391,7 @@ padding: 0px;
     }
 }
 .about{
-    background-image: url(../img/Kesineni-HOME-2.jpg);
+    background-image: url(../img/section2.png);
 
 background-repeat: no-repeat;
 background-size: cover;
@@ -397,6 +414,7 @@ padding: 100px 0px;
     font-family: "poppins";
     line-height: 1.2em;
     font-weight: 300;
+    color: white;
     
 }
 .about-text p{
@@ -404,18 +422,19 @@ padding: 100px 0px;
     font-size: 18px;
     line-height: 1.8rem;
     padding: 40px 0px;
+    color: white;
 
     
 }
 @media(max-width:768px) {
     .about{
-        background-image: url(../img/Kesineni-HOME-2.jpg);
+        background-image: url(../img/section2.png);
     
 
     }
     .about-text {
-        width: 70%;
-        padding: 60px 10px ;
+        width: 90%;
+        padding: 0px 10px ;
     }
 
 }
@@ -425,7 +444,7 @@ padding: 100px 0px;
 
 /* box5 */
 .box5 {
-    background-image: url('../img/bg4.jpg');
+    background-image: url('../img/footerimage.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -647,7 +666,7 @@ padding: 100px 0px;
 
   
   footer{
-   background-image: url('../img/bg4.jpg');
+   background-image: url('../img/footerimage.png');
    background-size: cover;
    background-position: center center;
    
@@ -738,5 +757,174 @@ flex-direction: column;
     }
     .footer-child{
      width: 90%;
+    }
+  }
+
+  .phone-show{
+
+    display: none !important;
+  }
+  @media(max-width:768px){
+ 
+    .laptop-show{
+
+        display: none !important;
+      }
+      .phone-show{
+
+        display: block !important;
+      }
+  }
+
+  /* Gallery */
+  .album{
+    margin: 0px auto;
+  }
+  .gallery-text{
+    max-width: 1200px;
+    margin: 0px auto;
+  }
+  @media(max-width:768px){
+    .gallery-text{
+        width: 80%;
+    }
+  }
+  .gallery-text > p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: black;
+    padding: 20px 0px;
+    line-height: 52px;
+    padding-left: px;
+  }
+  .gallery-text >  span{
+    display: inline-block;
+    width: 40%;
+    height: 3px;
+    background-color: #888c3e;
+    border-radius: 40%;
+    margin-bottom: 50px;
+    margin-left: 14px;
+  }
+  .album .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 85%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: flex-start;
+  }
+  
+  .album .responsive-container-block.bg {
+    max-width: 1320px;
+    
+    justify-content: space-between;
+  }
+  
+  .album .img {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  
+  .album #i9rb {
+    color: black;
+  }
+  
+  .album #ir6i {
+    color: black;
+  }
+  
+  .album #ikz3b {
+    color: black;
+  }
+  
+  .album .responsive-container-block.img-cont {
+    flex-direction: column;
+    max-width: 33.3%;
+    min-height: auto;
+    margin: 0 0 0 0;
+    height: 100%;
+  }
+  
+  .album #ipix {
+    color: black;
+  }
+  
+  .album #ipzoh {
+    color: black;
+  }
+  
+  .album #ig5q8 {
+    color: black;
+  }
+  
+  .album #imtzl {
+    color: black;
+  }
+  
+  .album #i53es {
+    color: black;
+  }
+  
+  .album .img.img-big {
+    height: 50%;
+    margin: 0 0 16px 0;
+  }
+  
+  @media (max-width: 1024px) {
+    .album .img {
+      margin: 0 0 18px 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .album .img {
+      max-width: 32.5%;
+      margin: 0 0 0 0;
+    }
+  
+    .album .responsive-container-block.bg {
+      flex-direction: column;
+    }
+  
+    .album .responsive-container-block.img-cont {
+      max-width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .album .img.img-big {
+      max-width: 49%;
+      margin: 0 0 0 0;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .album .img {
+      max-width: 94%;
+      margin: 0 0 25px 0;
+    }
+  
+    .album .responsive-container-block.img-cont {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 10px 10px 10px;
+    }
+  
+    .album .img.img-big {
+      max-width: 94%;
+      margin: 0 0 25px 0;
+    }
+  
+    .album .img.img-last {
+      margin: 0 0 5px 0;
     }
   }
