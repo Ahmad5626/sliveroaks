@@ -130,14 +130,11 @@ nav {
 
 
 /* slider start  */
-.slider{
-  height: 600px;
 
-}
 
 .box1 {
 
-height: 600px !important;
+/* height: 600px !important; */
     position: relative;
 
 }
