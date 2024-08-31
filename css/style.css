@@ -52,6 +52,7 @@ nav {
     padding: 20px 50px;
     column-gap: 48px;
     width: 100%;
+    margin-bottom: 0px;
 }
 
 .nav2 ul li a {
@@ -1286,4 +1287,87 @@ z-index: 999999;
 }
 .whatapp img{
   width: 100%;
+}
+
+
+.main-slider__two .swiper-slide .container {
+  padding-top: 180px;
+  padding-bottom: 190px;
+}
+
+.new-container{
+  display: block ;
+}
+
+.gray-boxed-wrapper.home-one__boxed {
+  margin-top: -33px;
+}
+
+
+/* new add  */
+
+
+.elementor-element-b2c7f45:not(.elementor-motion-effects-element-type-background), .elementor-5949 .elementor-element.elementor-element-b2c7f45 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+  background-color: #1f4e3d;
+  background-image: url(https://kshethralifespaces.com/wp-content/uploads/2020/12/footer-bg-icon.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.elementor-element.elementor-element-b2c7f45 {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  padding: 100px 0px 54px 0px;
+}
+.elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: 1200px;
+}
+
+.elementor-section .elementor-container {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.elementor-row {
+  width: 100%;
+  display: flex;
+}
+@media (min-width: 768px) {
+  .elementor-column.elementor-col-50, .elementor-column[data-col="50"] {
+      width: 50%;
+  }
+}
+.elementor-column {
+  min-height: 0px;
+}
+.elementor-column {
+  position: relative;
+  min-height: 1px;
+  display: flex;
+}
+
+.elementor-element.elementor-element-a9b48b4 > .elementor-element-populated {
+  margin: 0px 0px 0px 0px;
+  --e-column-margin-right: 0px;
+  --e-column-margin-left: 0px;
+}
+
+.elementor-column-wrap {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.elementor-element.elementor-element-a9b48b4 > .elementor-element-populated > .elementor-widget-wrap {
+  padding: 0px 15px 0px 70px;
+}
+
+.elementor-widget-wrap {
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
