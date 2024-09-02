@@ -1371,3 +1371,29 @@ z-index: 999999;
   flex-wrap: wrap;
   align-content: flex-start;
 }
+.new-btn {
+  background-color: #0A66C2 !important;
+  color: white;
+  padding: 15px 20px ;
+
+}
+.feature-two__box{
+  height: 226px;
+}
+.feature-one__check-list li > i {
+  font-size: 13px;
+  width: 30px;
+  height: 28px;
+ background-color: #0A66C2;
+}
+.feature-one__check-list li {
+  font-size: 15px;
+}
+.new-list i{
+  font-size: 27px !important;
+  width: 55px !important;
+    height: 55px  !important;
+}
+.new-list li{
+  font-size: 20px !important;
+}
